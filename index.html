@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="image-wrapper">
+            <div class="image-card computer">
+                <p>computer</p>
+                <img src="./assets/images/rock.png" alt="">
+            </div>
+            <div class="versus">
+                <p>vs</p>
+            </div>
+            <div class="image-card player">
+                <p>player</p>
+                <img src="./assets/images/rock.png" alt="">
+            </div>
+        </div>
+        
+        <div class="choices">
+            <button class="btn rock"><img src="./assets/images/rock.png" alt=""></button>
+            <button class="btn paper"><img src="./assets/images/paper.png" alt=""></button>
+            <button class="btn scissors"><img src="./assets/images/scissors.png" alt=""></button>
+        </div>
+        <div class="result">
+            <button class="start-btn">Press to start</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

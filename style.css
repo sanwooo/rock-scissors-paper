@@ -1,0 +1,125 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {margin:0;padding:0}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:400}
+ul {list-style:none}
+button, input, select {margin:0}
+html {box-sizing:border-box}
+*, :after, :before {box-sizing:inherit}
+img, video {height:auto;max-width:100%}
+iframe {border:0}
+table {border-collapse:collapse;border-spacing:0}
+td, th {padding:0}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url('./assets/images/background-image-bright.jpg');
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+	all: unset; 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: white;
+}
+.rock {
+    border: 5px skyblue solid;
+    
+}
+.paper {
+    border: 5px #A6FF96 solid;
+}
+.scissors {
+    border: 5px #FF9BD2 solid;
+}
+.start-btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    /* border: 5px gray solid; */
+}
+
+
+button img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* container layour */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.versus {
+    flex-basis: 100px;
+    flex-grow: 0.5;
+    color: black;
+}
+.versus p {
+    font-size: 5rem;
+}
+
+.image-card {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.image-card img {
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.result {
+    height: 200px;
+    
+}
+
+.result p {
+    font-size: 2.5rem;
+}
